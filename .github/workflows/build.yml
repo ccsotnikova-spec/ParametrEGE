@@ -12,11 +12,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Download Linux Wrapper and Build
-      run: |
-        wget https://raw.githubusercontent.com/minecraftforge/MinecraftForge/1.20.x/gradlew
-        chmod +x gradlew
-        ./gradlew build --no-daemon
+    - name: Setup and Run Gradle
+      uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: '8.4'
+        arguments: build --no-daemon
       
     - name: Upload JAR
       uses: actions/upload-artifact@v4
