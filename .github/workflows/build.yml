@@ -12,14 +12,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
-      
-    - name: Build with Gradle
-      run: gradle build
+    - name: Download Linux Wrapper and Build
+      run: |
+        wget https://raw.githubusercontent.com/minecraftforge/MinecraftForge/1.20.x/gradlew
+        chmod +x gradlew
+        ./gradlew build --no-daemon
       
     - name: Upload JAR
       uses: actions/upload-artifact@v4
+      if: always()
       with:
         name: ParametrEGE-Mod
         path: build/libs/*.jar
