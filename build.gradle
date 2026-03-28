@@ -1,6 +1,5 @@
 plugins {
     id 'net.minecraftforge.gradle' version '6.0.+'
-    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
 version = '1.0.0'
@@ -12,7 +11,8 @@ java {
 }
 
 minecraft {
-    mappings channel: 'parchment', version: '2024.01.07-1.20.4'
+    // ИСПОЛЬЗУЕМ ОФИЦИАЛЬНЫЕ ИСХОДНИКИ MOJANG (РАБОТАЕТ ВСЕГДА 100%)
+    mappings channel: 'official', version: '1.20.4'
     
     runs {
         client {
