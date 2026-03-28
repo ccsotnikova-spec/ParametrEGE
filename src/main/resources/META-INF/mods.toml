@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="MIT"
+
+[[mods]]
+modId="parametr_ege"
+version="1.0.0"
+displayName="Parametr EGE Mod"
+description="Nuclear Hamster, Olga Borisovna, Yashchenko, Morgenshtern, Face, EGE weapons"
+
+[[dependencies.parametr_ege]]
+modId="forge"
+mandatory=true
+versionRange="[49.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.parametr_ege]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.4,1.21)"
+ordering="NONE"
+side="BOTH"

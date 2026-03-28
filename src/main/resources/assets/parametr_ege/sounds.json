@@ -1,0 +1,58 @@
+{
+  "morgenshtern_cadillac": {
+    "sounds": [
+      {
+        "name": "parametr_ege:morgenshtern_cadillac",
+        "stream": true
+      }
+    ]
+  },
+  "morgenshtern_lollipop": {
+    "sounds": [
+      {
+        "name": "parametr_ege:morgenshtern_lollipop",
+        "stream": true
+      }
+    ]
+  },
+  "face_gotta": {
+    "sounds": [
+      {
+        "name": "parametr_ege:face_gotta",
+        "stream": true
+      }
+    ]
+  },
+  "olga_krichit": {
+    "sounds": [
+      {
+        "name": "parametr_ege:olga_krichit",
+        "stream": true
+      }
+    ]
+  },
+  "yashchenko_ege": {
+    "sounds": [
+      {
+        "name": "parametr_ege:yashchenko_ege",
+        "stream": true
+      }
+    ]
+  },
+  "nuclear_boom": {
+    "sounds": [
+      {
+        "name": "parametr_ege:nuclear_boom",
+        "stream": true
+      }
+    ]
+  },
+  "math_ambient": {
+    "sounds": [
+      {
+        "name": "parametr_ege:math_ambient",
+        "stream": true
+      }
+    ]
+  }
+}
